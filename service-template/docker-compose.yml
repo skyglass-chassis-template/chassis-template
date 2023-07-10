@@ -42,7 +42,7 @@ services:
 
   service-template:
       build: ./main
-      image: live-projects-service-template
+      image: service-template
       ports:
         - 8080:8080
       depends_on:
